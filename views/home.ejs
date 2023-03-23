@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Home Page | Assignment
+        </title>
+    </head>
+    <body>
+        <h1>Create your account at AssignmentTask!</h1>
+        <!-- Making a Form for signup  -->
+        <form method="POST" action="/signup">
+            <input type="text" name="name" placeholder="Enter Your name here"> <br> <br>
+            <input type="email" name="email" placeholder="email"> <br> <br>
+            
+            <input type="password" name="password" placeholder="Enter your password here"><br> <br>
+            <input type="password" name="confirmPassword" placeholder="Re-Enter Your Password Here"> <br> <br>
+            <input type="submit" value="Sign Up">
+        </form> <br> <br>
+        <!-- Provide Signin button If user already Have an account in our platform  -->
+        <form method="POST" action="/signin">
+            Already Have an account? <input type="submit" value="signin">
+        </form>
+    </body>
+</html>

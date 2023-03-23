@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome</title>
+    </head>
+    <body>
+        <h1>Welcome to AssignmentTask! </h1>
+        <h2>
+            <%= user.email %>
+        </h2>
+        <form action="/signout" method="POST">
+            <input type="hidden" value="<%= user.email %>" name="userEmail">
+            <input type="submit" value="Sign Out">
+        </form>
+    </body>
+</html>
